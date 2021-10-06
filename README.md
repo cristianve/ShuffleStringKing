@@ -2,7 +2,7 @@
 Shuffle String
 
 # Summary 🤔
-# Shuffle String
+### Shuffle String 🔀🔤
 * Leetcode exercise: https://leetcode.com/problems/shuffle-string/
 
 1- Given a string s and an integer array indices of the same length.
@@ -15,10 +15,10 @@ Shuffle String
 ![ExampleShuffle](img/ExampleShuffle.JPG)
 
 
-## Result:
+## Result 🔍:
 
 ![ExampleShuffle](img/Result.JPG)
 
-## Simple Unitary Testing:
+## Simple Unitary Testing ✔️:
 
 ![ExampleShuffle](img/UnitaryTesting.JPG)
