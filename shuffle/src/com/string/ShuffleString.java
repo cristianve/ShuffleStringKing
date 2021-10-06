@@ -12,8 +12,20 @@ public class ShuffleString {
             //Por cada iteración colocamos en el StringBuilder el contenido de los arrays de entrada < inidice , char >
             output.setCharAt(indices[i], s.charAt(i));
         }
+
         return output.toString();
     }
+
+    // More basic solution - First approach
+    /*
+      public String restoreString(String s, int[] indices) {
+        char [] charArr = new char[indices.length];
+        for(int i=0;i<indices.length;i++){
+         charArr[indices[i]] = s.charAt(i);
+        }
+        return String.valueOf(charArr);
+    }
+     */
 
     public static void main(String[] args) {
 
