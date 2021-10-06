@@ -15,4 +15,10 @@ Shuffle String
 ![ExampleShuffle](img/ExampleShuffle.JPG)
 
 
+## Result:
 
+![ExampleShuffle](img/Result.JPG)
+
+## Simple Unitary Testing:
+
+![ExampleShuffle](img/UnitaryTesting.JPG)

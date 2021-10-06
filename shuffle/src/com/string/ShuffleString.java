@@ -19,13 +19,20 @@ public class ShuffleString {
 
         //Input example
         String s = "codeleet";
+        //System.out.println("Input String: " + s);
         int[] indices = {4, 5, 6, 7, 0, 2, 1, 3};
+        //System.out.print("Input Indices: ");
+        //System.out.print("[ ");
+        //for (int index : indices) {
+        //    System.out.print(String.format("%d ,", indices[index]));
+        //}
+        //System.out.println("] ");
 
 
         //Validate correct input
         if (s.length() == indices.length) {
             String result = restoreString(s, indices);
-            System.out.println(result);
+            System.out.println("Output result: " + result);
         } else {
             System.out.println("No coinciden los tamaños de los índices y del string de entrada!");
         }
